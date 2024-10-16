@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Indexador de Atividades</title>
+    <title>Indexador de exercicios</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -32,22 +32,19 @@
 </head>
 <body>
 
-    <h1>Indexador de Atividades</h1>
-    <p>Abaixo está a lista de atividades que você poderá acessar:</p>
+    <h1>Indexador de Exercicios</h1>
+    <p>Abaixo está a lista de Exercicios que você poderá acessar:</p>
 
     <ul>
         <li>
-            <a href="atividade1/index.php">Atividade 1:</a>
+            <a href="exer1.php">Exercicio 1: Exibindo uma imagem e um texto</a>
+            <p> Exibe uma imagem com um texto.</p>
         </li>
         <li>
-            <a href="atividade2/exer1.php">Atividade 2:</a>
+            <a href="exer2.php">Exercicio 2: Links Absolutos e Relativos</a>
+            <p>Exibe 4 links: 2 absolutos (para um site externo) e 2 outros relativos (página PHP local).</p>
         </li>
-        <li>
-            <a href="atividade3/exer1.php">Atividade 3:</a>
-        </li>
-        <li>
-            <a href="atividade4/cadcliente.php">Atividade 3:</a>
-        </li>
+        
         <!-- Adicione aqui outras atividades conforme necessário -->
     </ul>
 
